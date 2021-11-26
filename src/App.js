@@ -21,6 +21,9 @@ function App() {
       <Button color="primary" variant="contained">
         Click Me
       </Button>
+      <Button color="primary" variant="contained">
+        Click Me
+      </Button>
     </div>
       </header>
       
