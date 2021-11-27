@@ -16,10 +16,12 @@ const Login = () => {
   const handleSubmit = (e) => {
     console.log("Submitted Name is ", name);
     e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    const payload = {
+        username: data.get('user'),
+    }
     axios
-      .post("http://13.233.73.170:3000/user", {
-        username: name,
-      })
+      .post("http://13.233.73.170:3000/user", payload)
       .then((response) => {
         let { data } = response;
         console.log("User Login ", data);

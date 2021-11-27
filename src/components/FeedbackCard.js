@@ -27,10 +27,7 @@ function FeedbackCard(){
                 // console.log(item.feedbackText)
                 return <Card key={item.teacher._id} item={item}/>
             })}
-            
-            
-
-            
+                        
         </div>
     </div>
     </>

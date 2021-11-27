@@ -11,7 +11,7 @@ function App() {
   return <>
   <Layout>
   {console.log('*********', localStorage.getItem('teacherAuth'))}
-  {localStorage.getItem('teacherAuth') ?  <FeedbackCard/> : <Login />}
+  {localStorage.getItem('teacherAuth') ?  <Heading/> : <Login />}
   </Layout>
   </>
 }
