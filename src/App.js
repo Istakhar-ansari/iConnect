@@ -1,9 +1,12 @@
 import './App.css';
 import Heading from './components/Heading';
+import FeedbackCard from './components/FeedbackCard';
 function App() {
   return <>
-  <Heading/>
+  <FeedbackCard/>
+  {/* <Heading/> */}
   </>
 }
 
 export default App;
+git 
